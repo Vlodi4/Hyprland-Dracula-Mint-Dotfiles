@@ -1,0 +1,91 @@
+:root {
+	/* The main accent color and the matching text value */
+	--adw-accent-bg-rgb: 37, 164, 135;
+	--adw-accent-fg-rgb: 197, 200, 198;
+	--adw-accent-rgb: 37, 164, 135;
+
+	/* destructive-action buttons */
+	--adw-destructive-bg-rgb: 255, 28, 40;
+	--adw-destructive-fg-rgb: 255, 255, 255;
+	--adw-destructive-rgb: 255, 0, 255;
+
+	/* Levelbars, entries, labels and infobars. These don't need text colors */
+	--adw-success-bg-rgb: 37, 164, 135;
+	--adw-success-fg-rgb: 197, 200, 198;
+	--adw-success-rgb: 37, 164, 135;
+
+	--adw-warning-bg-rgb: 205, 147, 9;
+	--adw-warning-fg-rgb: 0, 0, 0;
+	--adw-warning-fg-a: 0.8;
+	--adw-warning-rgb: 248, 228, 92;
+
+	--adw-error-bg-rgb: 192, 28, 40;
+	--adw-error-fg-rgb: 255, 255, 255;
+	--adw-error-rgb: 255, 123, 99;
+
+	/* Window */
+	--adw-window-bg-rgb: 33, 36, 50;
+	--adw-window-fg-rgb: 197, 200, 198;
+
+	/* Views - e.g. text view or tree view */
+	--adw-view-bg-rgb: 28, 31, 43;
+	--adw-view-fg-rgb: 197, 200, 198;
+
+	/* Header bar, search bar, tab bar */
+	--adw-headerbar-bg-rgb: 23, 25, 35;
+	--adw-headerbar-fg-rgb: 197, 200, 198;
+	--adw-headerbar-border-rgb: 37, 164, 135;
+	--adw-headerbar-backdrop-rgb: 33, 36, 50;
+	--adw-headerbar-shade-rgb: 37, 164, 135;
+	--adw-headerbar-shade-a: 0.36;
+	--adw-headerbar-darker-shade-rgb: 0, 0, 12;
+	--adw-headerbar-darker-shade-a: 0.9;
+
+	/* Split pane views */
+	--adw-sidebar-bg-rgb: 23, 25, 35;
+	--adw-sidebar-fg-rgb: 197, 200, 198;
+	--adw-sidebar-backdrop-rgb: 40, 40, 44;
+	--adw-sidebar-shade-rgb: 37, 164, 135;
+	--adw-sidebar-shade-a: 0.25;
+
+	--adw-secondary-sidebar-bg-rgb: 40, 40, 44;
+	--adw-secondary-sidebar-fg-rgb: 197, 200, 198;
+	--adw-secondary-sidebar-backdrop-rgb: 37, 37, 41;
+	--adw-secondary-sidebar-shade-rgb: 0, 0, 6;
+	--adw-secondary-sidebar-shade-a: 0.25;
+
+	/* Cards, boxed lists */
+	--adw-card-bg-rgb: 197, 200, 198;
+	--adw-card-bg-a: 0.08;
+	--adw-card-fg-rgb: 197, 200, 198;
+	--adw-card-shade-rgb: 0, 0, 6;
+	--adw-card-shade-a: 0.36;
+
+	/* Dialogs */
+	--adw-dialog-bg-rgb: 54, 54, 58;
+	--adw-dialog-fg-rgb: 197, 200, 198;
+
+	/* Popovers */
+	--adw-popover-bg-rgb: 42, 44, 57;
+	--adw-popover-fg-rgb: 197, 200, 198;
+	--adw-popover-shade-rgb: 0, 0, 6;
+	--adw-popover-shade-a: 0.25;
+
+	/* Banners */
+	--adw-banner-bg-rgb: 125, 125, 131;
+	--adw-banner-bg-a: 0.3;
+	--adw-banner-fg-rgb: 197, 200, 198;
+
+	/* Thumbnails */
+	--adw-thumbnail-bg-rgb: 57, 57, 61;
+	--adw-thumbnail-fg-rgb: 197, 200, 198;
+
+	/* Miscellaneous */
+	--adw-shade-rgb: 0, 0, 6;
+	--adw-shade-a: 0.25;
+
+	/* Skin-specific */
+	--adw-user-offline-rgb: 128, 128, 128;
+	--adw-user-online-rgb: 120, 174, 237;
+	--adw-user-ingame-rgb: 143, 240, 164;
+}

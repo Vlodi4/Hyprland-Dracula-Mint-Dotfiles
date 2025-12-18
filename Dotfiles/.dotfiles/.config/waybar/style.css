@@ -1,0 +1,132 @@
+
+/* --- bar settings ---------- */
+
+* {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 13px;
+    border-radius: 10px;
+    min-height: 0px;
+}
+
+window#waybar {
+    background-color: #23252e;
+    color: #C5C8C6;
+}
+
+window#waybar.termite {
+    background-color: #3F3F3F;
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0px;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+/* --- workspaces settings ---------- */
+
+#workspaces {
+    background-color: #2b2d36;
+	margin: 4px 0px 4px 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 6px;
+}
+
+#workspaces button {
+    /* background-color: #ff0000; */
+	color: #c5c8c6;
+	padding: 0 4px;
+	margin: 1px 2px 0 2px;
+	/* border-bottom: solid 2px #00ff00; */
+	border-radius: 0;
+}
+
+#workspaces button.empty {
+    color: #878887;
+}
+
+#workspaces button.active {
+    color: #c5c8c6;
+    background-color: transparent;
+	border-bottom: solid 2px #25a487;
+}
+
+#workspaces button:hover {
+    background-color: #2b2d36;
+	border-bottom: solid 2px #c5c8c6;
+}
+
+/* --- modules settings ---------- */
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#pulseaudio{
+    padding: 0 5px;
+    color: #C5C8C6;
+}
+
+#window {
+    margin: 7px 7px;
+    padding-left: 4px;
+}
+
+#custom-calc,
+#custom-arch-rofi,
+#custom-btop,
+#custom-calendar,
+#custom-power {
+    color: #25a487;
+    padding: 0 2px;
+    margin: 0 2px;
+    min-width: 16px;
+}
+
+#custom-arch-rofi {
+    background-color: #2b2d36;
+    margin: 4px 0px 4px 0px;
+    padding-right: 5px;
+    border-radius: 6px;
+}
+
+#cpu {
+    color: #C5C8C6;
+}
+
+#pulseaudio {
+    color: #25a487;
+}
+
+#pulseaudio.muted {
+    color: #8a8a8a;
+}
+
+#language {
+    color: #25a487;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state {
+    background: #23252e;
+    color: #23252e;
+    padding: 0 0px;
+    margin: 0 5px;
+}
+
+#keyboard-state > label {
+    padding: 0 0px;
+}
+
+#keyboard-state > label.locked {
+    background: #97e1ad;
+    color: #000000;
+    padding: 0 5px;
+    margin: 4px 5px;
+}

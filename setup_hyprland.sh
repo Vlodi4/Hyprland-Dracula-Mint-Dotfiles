@@ -32,7 +32,7 @@ sudo cp -rf ~/Hyprland-Dracula-Mint/Dotfiles/SDDM/sugar-dark /usr/share/sddm/the
 sudo cp ~/Hyprland-Dracula-Mint/Dotfiles/SDDM/sddm.conf /etc/
 
 # Copying Dotfiles Directories
-sudo cp -rf ~/Hyprland-Dracula-Mint/Dotfiles/.dotfiles
+sudo cp -rf ~/Hyprland-Dracula-Mint/Dotfiles/.dotfiles ~/
 
 # Chmod
 chmod +x ~/.dotfiles/.config/rofi/network-manager.sh

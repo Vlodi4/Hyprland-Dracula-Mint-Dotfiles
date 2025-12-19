@@ -28,17 +28,17 @@ mkdir -p ~/.vscode-oss/extensions
 
 
 # Copying Configuration Files SDDM
-sudo cp -rf ~/Hyprland-Dracula-Mint/Dotfiles/SDDM/sugar-dark /usr/share/sddm/themes/
-sudo cp ~/Hyprland-Dracula-Mint/Dotfiles/SDDM/sddm.conf /etc/
+sudo cp -rf ~/Hyprland-Dracula-Mint-Dotfiles/Dotfiles/SDDM/sugar-dark /usr/share/sddm/themes/
+sudo cp ~/Hyprland-Dracula-Mint-Dotfiles/Dotfiles/SDDM/sddm.conf /etc/
 
 # Copying Dotfiles Directories
-sudo cp -rf ~/Hyprland-Dracula-Mint/Dotfiles/.dotfiles ~/
+cp -rf ~/Hyprland-Dracula-Mint-Dotfiles/Dotfiles/.dotfiles ~/
 
 # Chmod
-chmod +x ~/.dotfiles/.config/rofi/network-manager.sh
-chmod +x ~/.dotfiles/.config/rofi/rofi-power-menu.sh
-chmod +x ~/.dotfiles/.config/hypr/show_layout_popup.sh
-chmod +x ~/.dotfiles/.config/hypr/hyprpicker.sh
+sudo chmod +x ~/.dotfiles/.config/rofi/network-manager.sh
+sudo chmod +x ~/.dotfiles/.config/rofi/rofi-power-menu.sh
+sudo chmod +x ~/.dotfiles/.config/hypr/show_layout_popup.sh
+sudo chmod +x ~/.dotfiles/.config/hypr/hyprpicker.sh
 
 # Stow
 stow -d ~/.dotfiles/ .
@@ -49,5 +49,4 @@ gsettings set org.gnome.desktop.interface font-name 'JetBrainsMono Nerd Font 12'
 gsettings set org.gnome.desktop.wm.preferences button-layout :
 gsettings set org.cinnamon.desktop.default-applications.terminal exec "alacritty"
 xdg-settings set default-web-browser firefox.desktop
-hyprctl setcursor Bibata-Modern-Classic 21
 xrandr --output DP-1 --primary

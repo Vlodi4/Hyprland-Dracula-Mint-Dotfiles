@@ -35,10 +35,10 @@ sudo cp ~/Hyprland-Dracula-Mint-Dotfiles/Dotfiles/SDDM/sddm.conf /etc/
 cp -rf ~/Hyprland-Dracula-Mint-Dotfiles/Dotfiles/.dotfiles ~/
 
 # Chmod
-sudo chmod +x ~/.dotfiles/.config/rofi/network-manager.sh
-sudo chmod +x ~/.dotfiles/.config/rofi/rofi-power-menu.sh
-sudo chmod +x ~/.dotfiles/.config/hypr/show_layout_popup.sh
-sudo chmod +x ~/.dotfiles/.config/hypr/hyprpicker.sh
+chmod +x ~/.dotfiles/.config/rofi/network-manager.sh
+chmod +x ~/.dotfiles/.config/rofi/rofi-power-menu.sh
+chmod +x ~/.dotfiles/.config/hypr/show_layout_popup.sh
+chmod +x ~/.dotfiles/.config/hypr/hyprpicker.sh
 
 # Stow
 stow -d ~/.dotfiles/ .

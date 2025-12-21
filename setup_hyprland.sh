@@ -23,8 +23,11 @@ mkdir -p ~/.config/fish
 mkdir -p ~/.config/BetterDiscord
 
 mkdir -p ~/.themes
-mkdir -p ~/.mozilla/firefox/n0eij4j3.default-release
+
 mkdir -p ~/.vscode-oss/extensions
+
+mkdir -p ~/.mozilla/firefox/n0eij4j3.default-release
+mkdir -p ~/.librewolf/u8uzzo2e.default-default
 
 
 # Copying Configuration Files SDDM

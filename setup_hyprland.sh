@@ -17,6 +17,8 @@ yay -S elyprismlauncher-bin
 yay -S viber
 yay -S adwsteamgtk
 
+flatpak install flathub com.obsproject.Studio com.github.wwmm.easyeffects
+
 # Creating some directories
 mkdir -p ~/.config
 mkdir -p ~/.config/VSCodium/User

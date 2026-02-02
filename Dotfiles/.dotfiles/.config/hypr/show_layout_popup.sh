@@ -24,7 +24,7 @@ case "$layout" in
 esac
 
 # Показываем новое окно (не убивая старое)
-yad --text="<span font='JetBrainsMono Nerd Bold 24' foreground='#ffffff'>$code</span>" \
+yad --text="<span font='JetBrainsMono Nerd Font Bold 24' foreground='#ffffff'>$code</span>" \
     --no-buttons \
     --undecorated \
     --skip-taskbar \

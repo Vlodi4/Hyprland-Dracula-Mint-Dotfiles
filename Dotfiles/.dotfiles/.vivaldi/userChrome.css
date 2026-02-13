@@ -1,0 +1,96 @@
+#browser {
+  --colorHighlightBg: #25a487 !important;
+  --colorHighlightBgFaded: #44c9aa !important;
+  --colorHighlightBgAlpha: #25a4871a !important;
+  --colorHighlightBgDark: #1a7c65 !important;
+
+  font-family: 'JetBrainsMono Nerd Font' !important;
+  font-size: 16px !important;
+}
+
+#browser button, #browser input, #browser select, #browser textarea {
+  font-family: 'JetBrainsMono Nerd Font' !important;
+  font-size: 16px !important;
+}
+
+body {
+  font-family: 'JetBrainsMono Nerd Font' !important;
+  font-size: 16px !important;
+}
+
+#app {
+  font-family: 'JetBrainsMono Nerd Font' !important;
+  font-size: 16px !important;
+}
+
+/* Цвет активной вкладки с рамкой */
+.tab-position .tab.active {
+  background-color: rgba(37, 164, 135, 0.15) !important;
+  border: 1px solid #25a487 !important;
+  border-radius: 10px !important;
+}
+
+.tab-position .tab.active:hover {
+  background-color: rgba(37, 164, 135, 0.15) !important;
+  border: 1px solid #25a487 !important;
+  border-radius: 10px !important;
+}
+
+.tab-position .tab {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.tab-position .tab:hover {
+  background-color: #292d3e !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.top {
+  background-color: #171923 !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/*.toolbar > .button_toolbar:hover {
+  background-color: #292d3e !important;
+  border: none !important;
+  border-radius: 10px !important;
+}*/
+
+/* Основная панель инструментов (адресная строка) */
+.toolbar-mainbar {
+  background-color: #1c1f2b !important;
+}
+
+/* Панель закладок */
+.bookmark-bar {
+  background-color: #1c1f2b !important;
+}
+
+/* Поле ввода адреса */
+.UrlBar-AddressField {
+  background-color: #292d3e !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+/* Эффект при наведении на кнопки навигации */
+
+/*.ToolbarButton-Button[name="Back"]:hover, 
+.ToolbarButton-Button[name="Forward"]:hover {
+  background-color: #292d3e !important;
+  border-radius: 10px !important;
+}*/
+
+.ToolbarButton-Button:hover {
+  background-color: #292d3e !important;
+  border-radius: 10px !important;
+}
+
+.vivaldi:hover {
+  border-radius: 10px !important;
+  background-color: #292d3e !important;
+}

@@ -52,4 +52,5 @@ gsettings set org.gnome.desktop.interface gtk-theme Nordic-darker-standard-butto
 gsettings set org.gnome.desktop.interface font-name 'JetBrainsMono Nerd Font 12'
 gsettings set org.gnome.desktop.wm.preferences button-layout :
 gsettings set org.cinnamon.desktop.default-applications.terminal exec "alacritty"
+xdg-settings set default-web-browser vivaldi-stable.desktop
 xrandr --output DP-1 --primary

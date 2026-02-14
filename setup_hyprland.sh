@@ -53,4 +53,7 @@ gsettings set org.gnome.desktop.interface font-name 'JetBrainsMono Nerd Font 12'
 gsettings set org.gnome.desktop.wm.preferences button-layout :
 gsettings set org.cinnamon.desktop.default-applications.terminal exec "alacritty"
 xdg-settings set default-web-browser vivaldi-stable.desktop
+xdg-mime default vivaldi-stable.desktop x-scheme-handler/http
+xdg-mime default vivaldi-stable.desktop x-scheme-handler/https
+xdg-mime default vivaldi-stable.desktop text/html
 xrandr --output DP-1 --primary

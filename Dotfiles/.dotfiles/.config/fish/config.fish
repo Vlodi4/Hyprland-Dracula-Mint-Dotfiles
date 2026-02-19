@@ -23,7 +23,7 @@ set -U fish_greeting
 set fish_color_command green
 set -gx EDITOR micro
 set -gx VISUAL micro
-set -gx BROWSER /usr/bin/vivaldi-stable
+set -gx BROWSER /usr/bin/firefox
 
 
 if status is-interactive

@@ -6,7 +6,7 @@ cd ~/yay
 makepkg -si
 
 # Install Programs
-sudo pacman -Sy wayland xorg xorg-server xorg-xwayland hyprland xdg-desktop-portal-hyprland kitty alacritty neovim firefox pavucontrol pamixer nemo grim slurp swappy rofi rofi-calc rofi-emoji waybar mako ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-firacode-nerd noto-fonts-emoji otf-font-awesome file-roller hyprpicker hypridle hyprlock btop calcurse telegram-desktop discord wlsunset geoclue2 python3 swayimg swaybg nodejs npm eza fish fuse2 wl-clipboard mc udiskie vlc mpv unzip flatpak fastfetch zenity gsimplecal flameshot steam qbittorrent blender mission-center chromium wine winetricks yad qt5ct qt5 qt5-graphicaleffects qt5-quickcontrols2 qt5-svg qt6ct kolourpaint sddm playerctl xed stow vivaldi --noconfirm
+sudo pacman -Sy wayland xorg xorg-server xorg-xwayland hyprland xdg-desktop-portal-hyprland kitty alacritty neovim firefox pavucontrol pamixer nemo grim slurp swappy rofi rofi-calc rofi-emoji waybar mako ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-firacode-nerd noto-fonts-emoji otf-font-awesome file-roller hyprpicker hypridle hyprlock btop calcurse telegram-desktop discord wlsunset geoclue2 python3 swayimg swaybg nodejs npm eza fish fuse2 wl-clipboard mc udiskie vlc mpv unzip flatpak fastfetch zenity gsimplecal flameshot steam qbittorrent blender mission-center chromium wine winetricks yad qt5ct qt5 qt5-graphicaleffects qt5-quickcontrols2 qt5-svg qt6ct kolourpaint sddm playerctl xed stow vivaldi hyprpolkitagent --noconfirm
 
 yay -S swayosd
 yay -S bibata-cursor-theme-bin
@@ -54,6 +54,8 @@ gsettings set org.gnome.desktop.wm.preferences button-layout :
 gsettings set org.cinnamon.desktop.default-applications.terminal exec "alacritty"
 xdg-settings set default-web-browser firefox.desktop
 xdg-mime default firefox.desktop x-scheme-handler/http
+
+systemctl --user enable hyprpolkitagent.service
 xdg-mime default firefox.desktop x-scheme-handler/https
 xdg-mime default firefox.desktop text/html
 xrandr --output DP-1 --primary

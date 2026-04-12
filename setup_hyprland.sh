@@ -54,6 +54,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout :
 gsettings set org.cinnamon.desktop.default-applications.terminal exec "alacritty"
 xdg-settings set default-web-browser firefox.desktop
 xdg-mime default firefox.desktop x-scheme-handler/http
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
 
 systemctl --user enable hyprpolkitagent.service
 xdg-mime default firefox.desktop x-scheme-handler/https

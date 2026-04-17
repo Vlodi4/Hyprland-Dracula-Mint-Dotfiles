@@ -18,6 +18,11 @@ yay -S adwsteamgtk
 
 flatpak install flathub com.obsproject.Studio com.github.wwmm.easyeffects
 
+flatpak override --user --filesystem=~/.themes
+flatpak override --user --filesystem=~/.icons
+flatpak override --user --filesystem=xdg-config/gtk-3.0:ro
+flatpak override --user --filesystem=xdg-config/gtk-4.0:ro
+
 # Creating some directories
 mkdir -p ~/.config
 mkdir -p ~/.config/VSCodium/User

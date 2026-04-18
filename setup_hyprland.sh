@@ -15,6 +15,7 @@ yay -S vscodium-bin
 yay -S elyprismlauncher-bin
 yay -S viber
 yay -S adwsteamgtk
+yay -S betterdiscordctl
 
 flatpak install flathub com.obsproject.Studio com.github.wwmm.easyeffects
 

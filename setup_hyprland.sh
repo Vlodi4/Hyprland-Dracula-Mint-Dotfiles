@@ -38,6 +38,8 @@ mkdir -p ~/.vscode-oss/extensions
 mkdir -p ~/.mozilla/firefox/n0eij4j3.default-release
 mkdir -p ~/.config/vivaldi
 
+mkdir -p ~/.local/share/ElyPrismLauncher/themes
+
 # Copying Configuration Files SDDM
 sudo cp -rf ~/Hyprland-Dracula-Mint-Dotfiles/Dotfiles/SDDM/sugar-dark /usr/share/sddm/themes/
 sudo cp ~/Hyprland-Dracula-Mint-Dotfiles/Dotfiles/SDDM/sddm.conf /etc/

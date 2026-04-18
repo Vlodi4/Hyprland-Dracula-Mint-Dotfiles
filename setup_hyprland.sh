@@ -28,6 +28,7 @@ mkdir -p ~/.config
 mkdir -p ~/.config/VSCodium/User
 mkdir -p ~/.config/fish
 mkdir -p ~/.config/BetterDiscord
+mkdir -p ~/.config/micro
 
 mkdir -p ~/.themes
 

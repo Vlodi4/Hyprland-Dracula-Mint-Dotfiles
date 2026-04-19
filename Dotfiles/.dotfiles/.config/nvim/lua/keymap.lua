@@ -21,4 +21,4 @@ vim.keymap.set("n", "<S-Tab>", ":BufferLineCyclePrev<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>x", ":bdelete<CR>", { desc = "Закрыть вкладку" })
 
-vim.keymap.set("n", "<leader>c", "<Cmd>BufferLinePick<CR>")
+vim.keymap.set("n", "<leader>p", "<Cmd>BufferLinePick<CR>")

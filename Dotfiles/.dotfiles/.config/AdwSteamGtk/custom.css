@@ -24,7 +24,7 @@
 	--adw-error-rgb: 255, 123, 99;
 
 	/* Window */
-	--adw-window-bg-rgb: 33, 36, 50;
+	--adw-window-bg-rgb: 41, 45, 62;
 	--adw-window-fg-rgb: 197, 200, 198;
 
 	/* Views - e.g. text view or tree view */
@@ -32,17 +32,17 @@
 	--adw-view-fg-rgb: 197, 200, 198;
 
 	/* Header bar, search bar, tab bar */
-	--adw-headerbar-bg-rgb: 23, 25, 35;
+	--adw-headerbar-bg-rgb: 28, 31, 43;
 	--adw-headerbar-fg-rgb: 197, 200, 198;
 	--adw-headerbar-border-rgb: 37, 164, 135;
-	--adw-headerbar-backdrop-rgb: 33, 36, 50;
+	--adw-headerbar-backdrop-rgb: 41, 45, 62;
 	--adw-headerbar-shade-rgb: 37, 164, 135;
 	--adw-headerbar-shade-a: 0.36;
 	--adw-headerbar-darker-shade-rgb: 0, 0, 12;
 	--adw-headerbar-darker-shade-a: 0.9;
 
 	/* Split pane views */
-	--adw-sidebar-bg-rgb: 23, 25, 35;
+	--adw-sidebar-bg-rgb: 28, 31, 43;
 	--adw-sidebar-fg-rgb: 197, 200, 198;
 	--adw-sidebar-backdrop-rgb: 40, 40, 44;
 	--adw-sidebar-shade-rgb: 37, 164, 135;

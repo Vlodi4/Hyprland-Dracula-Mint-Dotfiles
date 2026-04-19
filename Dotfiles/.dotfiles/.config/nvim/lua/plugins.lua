@@ -142,3 +142,19 @@ vim.pack.add({
 })
 
 require("nvim-autopairs").setup({})
+
+
+vim.pack.add({
+	{ src = "https://github.com/numToStr/Comment.nvim" }
+})
+
+require('Comment').setup({
+    toggler = {
+        line = '<leader>cc',
+        block = '<leader>cb',
+    },
+    opleader = {
+        line = '<leader>c',
+        block = '<leader>b',
+    },
+})

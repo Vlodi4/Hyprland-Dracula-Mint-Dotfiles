@@ -122,19 +122,6 @@ vim.pack.add({
 	{ src = "https://github.com/akinsho/bufferline.nvim" },
 })
 
---require("bufferline").setup({
---  options = {
---    mode = "buffers",
---    separator_style = "thin",
---    offsets = {
---      {
---        filetype = "snacks_explorer",
---        text = "Explorer",
---        padding = 1
---      }
---    },
---  }
---})
 
 require("bufferline").setup({
 	options = {
@@ -143,8 +130,15 @@ require("bufferline").setup({
 				filetype = "snacks_explorer",
 				text = "Explorer",
 				text_align = "center",
-				separator = false -- убедитесь, что разделитель здесь false
+				separator = false
 			}
 		},
 	}
 })
+
+
+vim.pack.add({
+	{ src = "https://github.com/windwp/nvim-autopairs" }
+})
+
+require("nvim-autopairs").setup({})

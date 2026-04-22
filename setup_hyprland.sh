@@ -12,11 +12,6 @@ yay -S swayosd bibata-cursor-theme-bin pwvucontrol vscodium-bin elyprismlauncher
 
 flatpak install flathub com.obsproject.Studio com.github.wwmm.easyeffects
 
-flatpak override --user --filesystem=~/.themes
-flatpak override --user --filesystem=~/.icons
-flatpak override --user --filesystem=xdg-config/gtk-3.0:ro
-flatpak override --user --filesystem=xdg-config/gtk-4.0:ro
-
 # Creating some directories
 mkdir -p ~/.config
 mkdir -p ~/.config/VSCodium/User
@@ -58,6 +53,11 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec "alacritty
 xdg-settings set default-web-browser firefox.desktop
 xdg-mime default firefox.desktop x-scheme-handler/http
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+
+flatpak override --user --filesystem=~/.themes
+flatpak override --user --filesystem=~/.icons
+flatpak override --user --filesystem=xdg-config/gtk-3.0:ro
+flatpak override --user --filesystem=xdg-config/gtk-4.0:ro
 
 systemctl --user enable hyprpolkitagent.service
 xdg-mime default firefox.desktop x-scheme-handler/https
